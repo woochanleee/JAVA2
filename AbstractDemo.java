@@ -1,4 +1,4 @@
-abstract class A{
+abstract class C{
     public abstract int b();
     // 본체가 있는 메소드는 abstract 키워드를 가질 수 없다.
     // public abstract int c(){ System.out.println("Hello"); }
@@ -7,8 +7,7 @@ abstract class A{
     }
 }
 
-class B extends A{
-    @Override
+class B extends C{
     public int b() {
         return 1;
     }
