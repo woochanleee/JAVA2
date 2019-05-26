@@ -32,6 +32,7 @@
 interface Info{
     public abstract int getLevel();
 }
+
 class EmployeeInfo implements Info{
     public int rank;
     EmployeeInfo(int rank){ this.rank = rank;}
