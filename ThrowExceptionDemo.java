@@ -22,6 +22,7 @@ public class ThrowExceptionDemo {
         } catch (FileNotFoundException e) {
             System.out.println("out.txt 파일이 필요합니다.");
         }
+
         catch (IOException e) {
             e.printStackTrace();
         }
